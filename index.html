@@ -48,11 +48,45 @@
             color: #666;
             text-align: center;
         }
+        nav {
+            background-color: #f8f8f8;
+            padding: 0.8em 1em;
+            margin-bottom: 2em;
+            border-radius: 6px;
+            border: 1px solid #eee;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+            gap: 1em; /* Spacing between items */
+        }
+        nav li {
+            margin-bottom: 0; /* Reset default margin */
+        }
+        nav a {
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
 
     <h1>REMbank App - Legal Information</h1>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#tos">Terms of Service</a></li>
+            <li><a href="#eula">EULA</a></li>
+            <li><a href="#subscriptions">Subscription Terms</a></li>
+            <li><a href="#copyright">Copyright</a></li>
+            <li><a href="#support">Support</a></li>
+        </ul>
+    </nav>
+    <!-- End Navigation Bar -->
 
 
     <p>Last Updated: [Date - e.g., May 3, 2025]</p>
